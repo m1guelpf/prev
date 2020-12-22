@@ -1,4 +1,4 @@
 {
-    "/public/js/app.js": "/public/js/app.js",
-    "/public/index.php": "/public/index.php"
+    "/.prev/js/app.js": "/.prev/js/app.js",
+    "/api/prev.php": "/api/prev.php"
 }

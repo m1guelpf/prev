@@ -3,7 +3,7 @@
 $slug = ltrim($_SERVER['REQUEST_URI'], '/');
 $slug = $slug == "" ? 'index' : $slug;
 
-require_once "./php/$slug.php";
+require_once dirname(__FILE__)."/../.prev/php/index.php";
 
 $app = json_encode([
     'component' => $slug,

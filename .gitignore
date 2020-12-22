@@ -1,2 +1,4 @@
-public/
+.prev/
 node_modules/
+
+.vercel

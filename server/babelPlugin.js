@@ -8,7 +8,7 @@ module.exports = function(babel) {
 
                 const code = path.node.declaration.declarations[0].init.quasis[0].value.raw
                 const phpFilePath = state.file.opts.filename.replace(/^.*[\\\/]/, '').replace('.js', '.php')
-                fs.writeFileSync(`./public/php/${phpFilePath}`, `<?php\n${code}`)
+                fs.writeFileSync(`./.prev/php/${phpFilePath}`, `<?php\n${code}`)
               },
         }
     };
